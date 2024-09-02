@@ -55,7 +55,7 @@ const config: Config = {
         src: 'https://www.senati.edu.pe/sites/all/themes/senati_theme/img/logo.svg',
       },
       items: [
-        { to: '/docs/intorduccion', label: 'Documentación', position: 'left' },
+        { to: '/docs/introduccion', label: 'Documentación', position: 'left' },
         { to: '/blog', label: 'Blog', position: 'left' },
         { to: '/about-us', label: 'Sobre Nosotros', position: 'left' },
         { to: '/contact', label: 'Contactos', position: 'left' },
