@@ -1,30 +1,111 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/* src/css/custom.css */
 
-/* You can override the default Infima variables here. */
+/* Variables para la paleta de colores */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  /* Colores para el tema claro */
+  --ifm-color-primary: #708df5; /* Azul Intenso */
+  --ifm-color-primary-dark: #364785; /* Azul Oscuro */
+  --ifm-color-primary-light: #0937DD; /* Azul Claro */
+
+  --ifm-color-secondary: #5e76ca; /* Azul Medio */
+  --ifm-color-secondary-dark: #3d4f91; /* Azul Oscuro */
+  --ifm-color-secondary-light: #052FC6; /* Azul Medio Claro */
+
+  --ifm-background-color: #ffffff; /* Blanco */
+  --ifm-font-color: #333333; /* Gris Oscuro */
+
+  /* Colores para el tema del footer */
+  --ifm-footer-background: #f8f9fa; /* Gris Claro */
+  --ifm-footer-font-color: #333333; /* Gris Oscuro */
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+[data-theme="dark"] {
+  /* Colores para el tema oscuro */
+  --ifm-color-primary: #708df5; /* Azul Intenso */
+  --ifm-color-primary-dark: #375EEA; /* Azul Medio Oscuro */
+  --ifm-color-primary-light: #3d5cce; /* Azul Medio Claro */
+
+  --ifm-color-secondary: #5670ce; /* Azul Claro */
+  --ifm-color-secondary-dark: #7C96F4; /* Azul Muy Claro */
+  --ifm-color-secondary-light: #92A8F7; /* Azul Pastel */
+
+  --ifm-background-color: #121212; /* Gris Oscuro */
+  --ifm-font-color: #ffffff; /* Blanco */
+
+  /* Colores para el tema del footer */
+  --ifm-footer-background: #1e1e1e; /* Gris Muy Oscuro */
+  --ifm-footer-font-color: #f0f0f0; /* Gris Claro */
+}
+
+/* Aplicar las variables */
+body {
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-font-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--ifm-font-color);
+}
+
+a {
+  color: var(--ifm-color-secondary);
+}
+
+/* Estilos para el detalle */
+details {
+  background-color: var(--ifm-background-color) !important;
+  border: 2px solid var(--ifm-color-primary-dark) !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+  width: 50%;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  color: var(--ifm-font-color);
+}
+
+.collapsibleContent_node_modules-\@docusaurus-theme-common-lib-components-Details-styles-module {
+  border-top: 1px solid var(--ifm-color-primary) !important;
+}
+
+details[open] {
+  background-color: var(--ifm-color-secondary-light);
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: var(--ifm-footer-background);
+  color: var(--ifm-footer-font-color);
+  padding: 20px;
+  text-align: center;
+  border-top: 1px solid var(--ifm-color-primary-dark);
+}
+
+footer a {
+  color: var(--ifm-color-primary);
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* custom.css */
+
+/* Logo para modo claro */
+.navbar__logo img[src*="logo1.png"] {
+  display: block;
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Logo para modo oscuro */
+  .navbar__logo img[src*="logo2.png"] {
+    display: block;
+  }
+
+  .navbar__logo img[src*="logo1.png"] {
+    display: none;
+  }
 }

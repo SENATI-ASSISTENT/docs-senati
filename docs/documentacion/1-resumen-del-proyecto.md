@@ -1,10 +1,9 @@
 ---
 id: 1
-title: Resumen del proyecto
+title: Introducción
 description: esto es un documento para pruebas
-slug: /resumen
+slug: /intorduccion
 ---
-
 **Nombre del Proyecto:** Horizon
 
 **Descripción:**
@@ -16,38 +15,17 @@ Breve descripción del objetivo del proyecto. Explica el propósito del robot, s
 
 **Equipos del Proyecto:**
 
-<details>
-<summary>Equipo de desarrollo</summary>
+1. **Equipo de Desarrollo:**
 
-1. **Líder de Equipo:**
-   <span style={{ display: 'inline-flex' }}>
-     Matias Herrera Diaz
-     <a href="https://github.com/" style={{ marginLeft: '10px' }}>
-       <img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="GitHub" />
-     </a>
-     <a href="https://www.linkedin.com/" style={{ marginLeft: '10px' }}>
-       <img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png" alt="LinkedIn" />
-     </a>
-   </span>
+   * **Líder de Equipo:** Matias Herrera Diaz [prueba](https://github.com/) [prueba](https://github.com/)
+   * **Ingeniero de Hardware:** [hola](https://example.com)
+   * **Ingeniero de Software:** [Nombre](https://example.com)
+   * **Diseñador de Interfaces:** [Nombre](https://example.com)
+   * **Otros Miembros:** [Nombre](https://example.com), Rol
+2. **Equipo de Documentación y Página Web:**
 
-2. **Ingeniero de Hardware:** [Nombre]
-3. **Ingeniero de Software:** [Nombre]
-4. **Diseñador de Interfaces:** [Nombre]
-5. **Otros Miembros:** [Nombre, Rol]
-
-</details>
-
-<details>
-<summary>Equipo de documentación y página web</summary>
-
-- **Líder de Proyecto:** 
-   <span style={{ display: 'inline-flex', alignItems: 'center' }}>
-     [Carlos Daniel Quispe Quispe](https://example.com)
-   </span>
-
-- **Ingeniero de Hardware:** [Nombre]
-- **Ingeniero de Software:** [Nombre]
-- **Diseñador de Interfaces:** [Nombre]
-- **Otros Miembros:** [Nombre, Rol]
-
-</details>
+   * **Líder de Proyecto:** [Carlos Daniel Quispe Quispe](https://example.com)
+   * **Ingeniero de Hardware:** [Nombre](https://example.com)
+   * **Ingeniero de Software:** [Nombre](https://example.com)
+   * **Diseñador de Interfaces:** [Nombre](https://example.com)
+   * **Otros Miembros:** [Nombre](https://example.com), Rol
