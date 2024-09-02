@@ -2,7 +2,7 @@
 id: 1
 title: Introducción
 description: esto es un documento para pruebas
-slug: /intorduccion
+slug: /introduccion
 ---
 **Nombre del Proyecto:** Horizon
 
