@@ -10,6 +10,8 @@ La arquitectura del robot se basa en una estructura modular, lo que facilita el 
 
 ### Diagrama UML de Clases
 
+**Arquitectura:**
+
 ```mermaid
 classDiagram
   class Robot {
