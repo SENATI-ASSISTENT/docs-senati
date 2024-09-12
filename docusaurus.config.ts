@@ -28,7 +28,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/SENATI-ASSISTENT',
+            'https://github.com/SENATI-ASSISTENT/docs-senati.git',
         },
         blog: {
           showReadingTime: true,
@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo. 
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/SENATI-ASSISTENT',
+            'https://github.com/SENATI-ASSISTENT/docs-senati.git',
           // Useful options to enforce blogging best practices
 
           onInlineTags: 'warn',
@@ -72,7 +72,7 @@ const config: Config = {
         { to: '/blog', label: 'Blog', position: 'left' },
         {
 
-          href: 'https://github.com/SENATI-ASSISTENT',
+          href: 'https://github.com/SENATI-ASSISTENT/docs-senati.git',
 
           label: 'GitHub',
           position: 'right',
@@ -86,7 +86,7 @@ const config: Config = {
           items: [
             {
               html: `
-                <a href="https://tuweb.com" class="footer-logo" style="text-align: center;">
+                <a href="" class="footer-logo" style="text-align: center;">
                   <img src="/img/logofooter.png" alt="HORIZON" />
                 </a>
               `,
@@ -114,7 +114,7 @@ const config: Config = {
             {
               label: 'GitHub',
 
-              href: 'https://github.com/SENATI-ASSISTENT',
+              href: 'https://github.com/SENATI-ASSISTENT/docs-senati.git',
 
             },
           ],
