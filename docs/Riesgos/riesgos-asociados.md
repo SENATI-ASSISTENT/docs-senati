@@ -103,5 +103,3 @@
    
 4. **Planes de Contingencia**: 
    - **Contenido**: Acciones a tomar en caso de que un riesgo se materialice para minimizar el impacto en el proyecto.
-
-Este enfoque te permitirá gestionar los riesgos de manera proactiva y asegurar una implementación más exitosa y estable del robot asistente inteligente.
