@@ -1,6 +1,7 @@
 ### **1. Riesgos Técnicos**
 
 #### **Riesgo: Fallos en el Sistema de Movilidad Autónoma**
+
 - **Descripción**: El robot podría enfrentar problemas al moverse, como colisiones o navegación incorrecta en entornos complejos.
 - **Probabilidad**: Alta
 - **Impacto**: Alto
@@ -10,6 +11,7 @@
   - **Pruebas de Campo Extensas**: Realizar pruebas en escenarios variados para asegurar la adaptabilidad y robustez del sistema.
 
 #### **Riesgo: Inexactitud en el Procesamiento de Lenguaje Natural (NLP)**
+
 - **Descripción**: El sistema podría no interpretar correctamente las solicitudes o preguntas del usuario.
 - **Probabilidad**: Media
 - **Impacto**: Alto
@@ -18,6 +20,7 @@
   - **Implementar Feedback y Aprendizaje Continuo**: Permitir que el sistema aprenda y mejore con el tiempo basado en interacciones reales.
 
 #### **Riesgo: Problemas de Integración con Dispositivos Inteligentes**
+
 - **Descripción**: Dificultades al integrar el robot con otros dispositivos inteligentes en el hogar u oficina.
 - **Probabilidad**: Media
 - **Impacto**: Medio
@@ -28,6 +31,7 @@
 ### **2. Riesgos de Seguridad y Privacidad**
 
 #### **Riesgo: Vulnerabilidades de Seguridad**
+
 - **Descripción**: El robot puede ser vulnerable a ataques cibernéticos, comprometiendo la seguridad del sistema y la privacidad del usuario.
 - **Probabilidad**: Media
 - **Impacto**: Alto
@@ -37,6 +41,7 @@
   - **Auditorías de Seguridad**: Realizar auditorías de seguridad y pruebas de penetración periódicas.
 
 #### **Riesgo: Exposición de Información Personal**
+
 - **Descripción**: Riesgo de exposición de datos personales del usuario debido a fallos en la privacidad del sistema.
 - **Probabilidad**: Media
 - **Impacto**: Alto
@@ -47,6 +52,7 @@
 ### **3. Riesgos Operacionales**
 
 #### **Riesgo: Fallos en la Interfaz de Usuario**
+
 - **Descripción**: La interfaz de usuario puede no ser intuitiva o fácil de usar, lo que afectaría la experiencia del usuario.
 - **Probabilidad**: Media
 - **Impacto**: Medio
@@ -55,6 +61,7 @@
   - **Iteración y Retroalimentación**: Implementar un proceso de iteración basado en la retroalimentación de los usuarios.
 
 #### **Riesgo: Retrasos en el Desarrollo o Implementación**
+
 - **Descripción**: El proyecto podría enfrentar retrasos debido a problemas técnicos, cambios en el alcance, o coordinación del equipo.
 - **Probabilidad**: Alta
 - **Impacto**: Alto
@@ -65,6 +72,7 @@
 ### **4. Riesgos de Cumplimiento y Regulación**
 
 #### **Riesgo: Incumplimiento de Normativas**
+
 - **Descripción**: El sistema podría no cumplir con regulaciones y normativas aplicables a la tecnología y privacidad.
 - **Probabilidad**: Media
 - **Impacto**: Alto
@@ -75,6 +83,7 @@
 ### **5. Riesgos de Escalabilidad y Mantenimiento**
 
 #### **Riesgo: Problemas de Escalabilidad**
+
 - **Descripción**: El sistema podría enfrentar dificultades para escalar a medida que se añaden nuevas funcionalidades o aumenta el número de usuarios.
 - **Probabilidad**: Media
 - **Impacto**: Alto
@@ -83,6 +92,7 @@
   - **Monitoreo y Ajuste**: Implementar un sistema de monitoreo para ajustar los recursos según sea necesario.
 
 #### **Riesgo: Complejidades en el Mantenimiento**
+
 - **Descripción**: La complejidad del sistema puede hacer que el mantenimiento y la actualización sean difíciles.
 - **Probabilidad**: Media
 - **Impacto**: Medio
@@ -92,14 +102,11 @@
 
 ### **Documentación del Plan de Gestión de Riesgos**
 
-1. **Registro de Riesgos**: 
+1. **Registro de Riesgos**:
    - **Contenido**: Descripción de cada riesgo, probabilidad, impacto y estrategias de mitigación.
-   
-2. **Plan de Mitigación**: 
+2. **Plan de Mitigación**:
    - **Contenido**: Acciones específicas para abordar cada riesgo, responsables y plazos.
-   
-3. **Monitoreo y Revisión**: 
+3. **Monitoreo y Revisión**:
    - **Contenido**: Proceso para revisar y actualizar regularmente el registro de riesgos y el plan de mitigación.
-   
-4. **Planes de Contingencia**: 
+4. **Planes de Contingencia**:
    - **Contenido**: Acciones a tomar en caso de que un riesgo se materialice para minimizar el impacto en el proyecto.
