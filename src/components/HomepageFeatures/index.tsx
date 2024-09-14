@@ -10,32 +10,31 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Descripcion del Proyecto',
+    Svg: require('@site/static/img/undraw_figure.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+       El proyecto consiste en desarrollar un asistente robótico capaz de desplazarse de forma autónoma, interactuar con los usuarios mediante procesamiento de lenguaje natural para responder preguntas, y ejecutar órdenes simples según las instrucciones dadas por el usuario.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Proposito del Proyecto',
+    Svg: require('@site/static/img/undraw_artificial_intelligence.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       El propósito del robot es interactuar de manera fluida y natural para responder preguntas, ejecutar órdenes como controlar dispositivos encender/apagar o realizar tareas básicas, y desplazarse de forma autónoma para interactuar con su entorno.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Objetivos del Proyecto',
+    Svg: require('@site/static/img/undraw_firma.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <>
+          El robot utilise una interaccion fluida utilizando lenguaje natural para responder preguntas, ejecutar ordenes como controlar dispositivos encender/apagar o realizar tareas básicas, y desplazarse de forma autónoma para interactuar con su entorno.
+        </>
       </>
     ),
   },

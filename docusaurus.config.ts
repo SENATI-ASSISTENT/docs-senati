@@ -3,8 +3,8 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'SENATI-ASSISTENT',
+  tagline: '',
   favicon: 'img/favicon.ico',
 
   url: 'https://your-docusaurus-site.example.com',
@@ -28,7 +28,7 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/SENATI-ASSISTENT/docs-senati.git',
         },
         blog: {
           showReadingTime: true,
@@ -36,8 +36,13 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
+
+          // Please change this to your repo. 
+          // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/SENATI-ASSISTENT/docs-senati.git',
+          // Useful options to enforce blogging best practices
+
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
@@ -66,7 +71,9 @@ const config: Config = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/SENATI-ASSISTENT/docs-senati',
+
+          href: 'https://github.com/SENATI-ASSISTENT/docs-senati.git',
+
           label: 'GitHub',
           position: 'right',
         },
@@ -79,22 +86,24 @@ const config: Config = {
           items: [
             {
               html: `
-                <a href="https://tuweb.com" class="footer-logo" style="text-align: center;">
+                <a href="" class="footer-logo" style="text-align: center;">
                   <img src="/img/logofooter.png" alt="HORIZON" />
                 </a>
               `,
             },
           ],
         },
-        {
-          title: 'Docs',
+
+        /*{
+          title: 'Community',
+
           items: [
             {
               label: 'Documentación',
               to: '/docs/Introducción-Visión-General/Descripción-General',
             },
           ],
-        },
+        },*/
         {
           title: 'More',
           items: [
@@ -104,13 +113,17 @@ const config: Config = {
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/SENATI-ASSISTENT/docs-senati',
+
+              href: 'https://github.com/SENATI-ASSISTENT/docs-senati.git',
+
             },
           ],
         },
         
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} HORIZON - Senati Assistent`,
+
+      copyright: `Copyright © ${new Date().getFullYear()} SENATI-ASSISTENT`,
+
     },
     
     prism: {
