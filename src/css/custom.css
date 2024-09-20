@@ -29,4 +29,42 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+/* src/css/styles.css */
 
+/* Contenedor de las tarjetas */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Estilo de las tarjetas */
+.card {
+  border: 1px solid var(--ifm-color-border);
+  border-radius: 8px;
+  padding: 16px;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: var(--ifm-color-background);
+  color: var(--ifm-color-text);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.card p {
+  margin: 8px 0;
+}
+
+/* Estilo para el modo oscuro */
+@media (prefers-color-scheme: dark) {
+  .card {
+    background-color: var(--ifm-color-background-dark);
+    color: var(--ifm-color-text-dark);
+  }
+}
