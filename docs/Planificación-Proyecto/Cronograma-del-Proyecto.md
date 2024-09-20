@@ -4,6 +4,7 @@ sidebar_position: 1
 ---
 
 # •	Descripción: Crear un cronograma detallado que muestre las diferentes fases del proyecto, hitos clave y fechas de entrega estimadas. -->
+
 # 📅 Cronograma de Entrega del Proyecto Robot Asistente Inteligente 🤖
 
 ## Fase 1: Planificación y Diseño 🖌️
@@ -31,3 +32,13 @@ sidebar_position: 1
 - 🎯 **23/11/2024:** Entrega del proyecto con funcionalidades básicas
 
 **Duración total del proyecto:** 3 meses (30/08/2024 - 23/11/2024)
+
+
+| Fases               | Actividades                      | Fecha de Inicio | Fecha de Fin | Estado       | Hitos                         |
+|---------------------|----------------------------------|-----------------|--------------|--------------|-------------------------------|
+| Planificación       | |  |  | Completado ✅ ||
+| Investigación       | |  |  | En Progreso 🔄||
+| Implementación      | |  |  | Pendiente ⚠️ | |
+| Revisión y Testing  | |  |  | Pendiente ⚠️ | |
+
+
