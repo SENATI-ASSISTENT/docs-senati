@@ -3,9 +3,7 @@ sidebar_label: "Plan de Comunicación"
 sidebar_position: 4
 ---
 
-# •	Descripción: Establecer cómo se comunicará el equipo durante el proyecto, incluyendo reuniones, reportes y herramientas de colaboración.
-
-# 📣 Plan de Comunicación para el Desarrollo y Uso de un Robot Asistente Institucional 🤖
+# 📣 Plan de Comunicación para el Desarrollo 🤖
 
 ## 1. 🎯 Objetivos de Comunicación
 
