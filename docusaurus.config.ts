@@ -71,6 +71,11 @@ const config: Config = {
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
+          to: '/sobre-nosotros',
+          label: 'Sobre Nosotros',
+          position: 'left',
+        },
+        {
 
           href: 'https://github.com/SENATI-ASSISTENT/docs-senati.git',
 
@@ -119,13 +124,13 @@ const config: Config = {
             },
           ],
         },
-        
+
       ],
 
       copyright: `Copyright © ${new Date().getFullYear()} SENATI-ASSISTENT`,
 
     },
-    
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
