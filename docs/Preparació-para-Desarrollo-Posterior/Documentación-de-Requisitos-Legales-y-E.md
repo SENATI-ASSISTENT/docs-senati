@@ -22,7 +22,7 @@ sidebar_position: 4
 
 ### 1.4. 📋 Cumplimiento Regulatorio
 - Cumplir con las regulaciones de seguridad, salud y medioambientales.
-- Obtener los permisos o aprobaciones necesarios para la operación (regulaciones de la FAA para drones).
+- Obtener los permisos o aprobaciones necesarios para la operación de registro
 
 ## 2. 🧭 Consideraciones Éticas
 
