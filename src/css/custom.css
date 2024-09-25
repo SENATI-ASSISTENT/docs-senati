@@ -41,7 +41,7 @@
 }
 
 /* Estilo de las tarjetas */
-.card {
+.cardlist {
   border: 1px solid var(--ifm-color-border);
   border-radius: 8px;
   padding: 16px;
@@ -52,18 +52,18 @@
   transition: background-color 0.3s, color 0.3s;
 }
 
-.card h4 {
+.cardlist h4 {
   margin: 0;
   font-size: 1.25rem;
 }
 
-.card p {
+.cardlist p {
   margin: 8px 0;
 }
 
 /* Estilo para el modo oscuro */
 @media (prefers-color-scheme: dark) {
-  .card {
+  .cardlist {
     background-color: var(--ifm-color-background-dark);
     color: var(--ifm-color-text-dark);
   }
