@@ -1,7 +1,8 @@
 ---
-sidebar_label: "Alcance del Proyecto"
+sidebar_label: "Proceso de Revisión de Documentación"
 sidebar_position: 1
 ---
+
 
 ## 🎯 **1. Objetivo**
 Definir un proceso estructurado para revisar, actualizar y mantener la documentación actualizada de forma continua, asegurando que toda la información sea precisa y refleje las prácticas y políticas vigentes.
@@ -83,3 +84,4 @@ Este proceso aplica a toda la documentación interna, procedimientos operativos,
 
 ## 🔄 **8. Revisión del Proceso**
 Este proceso será revisado anualmente para asegurar su eficacia y alineación con las necesidades de la organización.
+
