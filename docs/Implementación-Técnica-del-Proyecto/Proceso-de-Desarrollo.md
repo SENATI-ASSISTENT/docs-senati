@@ -1,6 +1,7 @@
 ---
 sidebar_label: "Proceso de Desarrollo"
 sidebar_position: 1
+description: "Este documento detalla las fases clave del desarrollo del robot asistente, desde el análisis de requisitos hasta la mejora continua, asegurando su efectividad y adaptabilidad."
 ---
 
 # 🤖 Proceso de Desarrollo del Robot Asistente
